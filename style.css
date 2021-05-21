@@ -7,6 +7,10 @@ header {
     background: linear-gradient(180deg, #6597EC 0%, #2B2AAC 100%);
 }
 
+.detail-brosur {
+    border-radius: 10px;
+}
+
 .hero,
 .shoesimg {
     width: 650px;
@@ -183,4 +187,56 @@ header {
 
 .value-product .box-value div {
     border-radius: 10px;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    color: #fff;
+    background: #2B2AAC;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 20px 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16pt;
+}
+
+.social a:hover {
+    color: #ddd;
+}
+
+@media (max-width:800px) {
+    .hero,
+    .shoesimg,
+    .featured-product img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .shoesimg {
+        margin-top: -120px;
+    }
+    .back-half:after,
+    .back-half:before,
+    .back-half-2:after,
+    .back-half-2:before {
+        width: 100%;
+    }
+    .featured-product img {
+        margin-top: -70px;
+    }
+    .featured-product .product-name {
+        font-size: 65pt;
+    }
+    .value-product .box-value {
+        margin-top: 40px;
+    }
+    .value-product .box-value:first-child {
+        margin-top: -100px;
+    }
+    .back-half .h5,
+    .back-half-2 .h5 {
+        font-size: 12pt;
+    }
 }
