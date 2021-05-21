@@ -1,0 +1,186 @@
+body {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(180deg, #6597EC 0%, #2B2AAC 100%);
+}
+
+.hero,
+.shoesimg {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.hero .h1 {
+    letter-spacing: 6.9px;
+    font-size: 22px
+}
+
+.hero .hero-title {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.hero .btn {
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    color: #fff;
+}
+
+.hero .btn:hover {
+    background: #164185;
+}
+
+.shoesimg {
+    margin-top: -120px;
+}
+
+.testimonial .text-testi {
+    font-size: 19px;
+}
+
+.testimonial .col-sm-6 {
+    padding: 30px 50px 30px 50px;
+}
+
+.testimonial .profile {
+    width: 80px;
+}
+
+.back-half,
+.back-half-2 {
+    position: relative;
+}
+
+.back-half:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(96, 141, 230, 0.9) 0%, rgba(36, 38, 176, 0.8) 100%);
+    background-size: cover;
+    z-index: -1;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.back-half:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    background: url(img/sepatu-landscape3.jpg)center;
+    background-size: cover;
+    z-index: -1;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.back-half-2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(96, 141, 230, 0.9) 0%, rgba(36, 38, 176, 0.8) 100%);
+    background-size: cover;
+    z-index: -1;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.back-half-2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    background: url(img/sepatu-landscape3.jpg)center;
+    background-size: cover;
+    z-index: -1;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.next-btn,
+.prev-btn {
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 100px;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+    border: 1px solid #000;
+    background: #164185 !important;
+    color: #fff;
+}
+
+.next-btn i,
+.prev-btn i {
+    font-size: 35pt;
+}
+
+.price-discount {
+    color: rgb(167, 167, 167);
+}
+
+.rating i {
+    color: #FFBE00;
+}
+
+.featured-product .product-name {
+    font-size: 128px;
+    font-weight: 600;
+    color: #333;
+}
+
+.featured-product img {
+    margin-top: -120px;
+}
+
+.featured-product .btn-buy {
+    font-family: "Saira", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #333;
+    color: #333;
+    font-weight: bold;
+}
+
+.featured-product .btn-buy:hover {
+    background: #164185;
+    color: #fff;
+    border-color: #fff;
+}
+
+.value-product .box-value {
+    margin-top: -140px;
+}
+
+.value-product .box-value div {
+    border-radius: 10px;
+}
